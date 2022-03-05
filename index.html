@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="left">
+                    <img src="" alt="" class="logo">
+                    <!-- h1 в каестве заглушки, в будущем будет удален -->
+                    <h1 style="margin: 0; line-height: 1;">LOGO</h1>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a class="nav__link smooth-scroll-link" href="#intro">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav__link smooth-scroll-link" href="#about-us">
+                                О нас
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav__link smooth-scroll-link" href="#servis">
+                                Услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav__link smooth-scroll-link" href="#order">
+                                Заказать
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav__link smooth-scroll-link" href="#review">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav__link smooth-scroll-link" href="#contacts">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="burger">
+                    <span class="burger__span"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- intro -->
+    <section class="intro" id="intro">
+        <div class="container">
+            <div class="intro-inner">
+                <div class="text-box">
+                    <h1 class="h1">Вскрытие и замена замков</h1>
+                    <p class="p1">Быстрое вскрытие и замена замков. Выезд на место и прибытие в течении 15-20 минут.</p>
+                    <button class="btn">Вызвать +7(495) 33-33-33</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about-us -->
+    <section class="about-us" id="about-us">
+        <div class="container">
+            <div class="about-us-inner">
+                <h2 class="h2">О нас</h2>
+                <div class="items-wrapper">
+                    <div class="about-us-item">
+                        <div class="about-us-item-left">
+                            <h3 class="h3">Работаем круглосуточно</h3>
+                            <img src="./img/clock.svg" alt="">
+                        </div>
+                        <div class="about-us-item-right">
+                            <p class="p1">Звоните нам в любое время, мы работаем круглосуточно!</p>
+                        </div>
+                    </div>
+                    <div class="about-us-item">
+                        <div class="about-us-item-left">
+                            <h3 class="h3">Работаем быстро</h3>
+                            <img src="./img/fast.svg" alt="">
+                        </div>
+                        <div class="about-us-item-right">
+                            <p class="p1">Прибываем на место в течении 15-20 минут. Среднее время вскрытия около 10
+                                минут.</p>
+                        </div>
+                    </div>
+                    <div class="about-us-item">
+                        <div class="about-us-item-left">
+                            <h3 class="h3">Опыт работы</h3>
+                            <img src="./img/like.svg" alt="">
+                        </div>
+                        <div class="about-us-item-right">
+                            <p class="p1">10 лет предоставляем услуги. Более 5 000 клиентов в год.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- servis -->
+    <section class="servis" id="servis">
+        <div class="container">
+            <div class="servis-inner">
+                <h2 class="h2">Услуги</h2>
+
+                <div class="slider">
+
+                    <!-- Первый слайд -->
+                    <div class="item">
+                        <img src="./img/home.jpg">
+                        <div class="info">
+                            <h3 class="h3">Вскрытие домашних замков</h3>
+                            <p class="p1">Никто не застрахован от таких проблем. Если вы столкнулись с подобным звоните
+                                нам!</p>
+                            <button class="btn">Заказать звонок</button>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Второй слайд -->
+                    <div class="item">
+                        <img src="./img/garage.jpg">
+                        <div class="info">
+                            <h3 class="h3">Вскрытие гаражных замков</h3>
+                            <p class="p1">Ваш автомобиль застрял в гараже? Звоните нам и в течении 25 минут ваш
+                                автомобиль будет у вас.</p>
+                            <button class="btn">Заказать звонок</button>
+                        </div>
+                    </div>
+
+                    <!-- Третий слайд -->
+                    <div class="item">
+                        <img src="./img/auto.jpg">
+                        <div class="info">
+                            <h3 class="h3">Вскрытие автомобильных замков</h3>
+                            <p class="p1">Куда-то опыздываете и не можете открыть замок? Скорее звоните нам!</p>
+                            <button class="btn">Заказать звонок</button>
+                        </div>
+                    </div>
+
+                    <!-- чет слайд -->
+                    <div class="item">
+                        <img src="./img/door.jpg">
+                        <div class="info">
+                            <h3 class="h3">Вскрытие замков пластиковых дверей и окон</h3>
+                            <p class="p1">Современные и удобные пластиковые двери иногда оказываются заперты, а вы
+                                где-то утеряли ключ о них. Мы сможем вам помочь!</p>
+                            <button class="btn">Заказать звонок</button>
+                        </div>
+                    </div>
+
+                    <!-- Кнопки-стрелочки -->
+                    <a class="previous" onclick="previousSlide()">&#10094;</a>
+                    <a class="next" onclick="nextSlide()">&#10095;</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- order -->
+    <section class="order" id="order">
+        <div class="container">
+            <div class="order-inner">
+                <h2 class="h2">Заказать</h2>
+                <p class="p1">Заказать можно быстро и в несколько этапов:</p>
+
+                <div class="order-steps">
+                    <div class="steps-list">
+                        <div class="line">
+                            <div class="line-dot"></div>
+                            <div class="line-dot"></div>
+                            <div class="line-dot"></div>
+                        </div>
+                        <div class="steps">
+                            <div class="step">1. Ваш званок</div>
+                            <div class="step">2. Выполнение нашей работы</div>
+                            <div class="step">3. Оплата</div>
+                        </div>
+                    </div>
+                    <img src="./img/order.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- review -->
+    <section class="review" id="review">
+        <div class="container">
+            <div class="review-inner">
+                <h2 class="h2">Отзывы</h2>
+                <p class="p1"></p>
+                <div class="review-wrapper">
+
+                    <div class="review-item">
+                        <img src="./img/comment-dots.png" width="35px" height="35px" alt="" class="quotes">
+                        <div class="review-item-comment">
+                            <img class="photo" src="./img/pers-1.jpg" alt="">
+                            <div class="review-item-comment-info">
+                                <h3 class="h3">Саша Кратов</h3>
+                                <p class="p1">18.01.2022</p>
+                                <p class="p1 comment">Благодарю за работу! Все сделали быстро и качественно. Рекомендую.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-item">
+                        <img src="./img/comment-dots.png" width="35px" height="35px" alt="" class="quotes">
+                        <div class="review-item-comment">
+                            <img class="photo" src="./img/pers-2.jpg" alt="">
+                            <div class="review-item-comment-info">
+                                <h3 class="h3">Ирина Хромова</h3>
+                                <p class="p1">04.02.2022</p>
+                                <p class="p1 comment">Большое спасибо за работу. Работают быстро и профессионально.
+                                    Замок поменялию.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="review-wrapper">
+
+                    <div class="review-item">
+                        <img src="./img/comment-dots.png" width="35px" height="35px" alt="" class="quotes">
+                        <div class="review-item-comment">
+                            <img class="photo" src="./img/pers-3.jpg" alt="">
+                            <div class="review-item-comment-info">
+                                <h3 class="h3">Саша Кратов</h3>
+                                <p class="p1">18.01.2022</p>
+                                <p class="p1 comment">Неожиданно и приятно. Всю работу произвели быстро, очень рад,
+                                    рекомендую.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-item">
+                        <img src="./img/comment-dots.png" width="35px" height="35px" alt="" class="quotes">
+                        <div class="review-item-comment">
+                            <img class="photo" src="./img/pers-4.jpg" alt="">
+                            <div class="review-item-comment-info">
+                                <h3 class="h3">Ирина Хромова</h3>
+                                <p class="p1">04.02.2022</p>
+                                <p class="p1 comment">Благодарю за работу. Сделали быстро как и обещали!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contacts -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-inner">
+                <h2 class="h2">Контакты</h2>
+                <p class="p1">Свяжитесь с нами в течении 30-и минут и получите скидку!</p>
+                <div class="phone">
+                    <img src="./img/Phone.png" width="25px" height="25px" alt="">
+                    <a href="tel:+7(495) 33-33-33">+7(495) 33-33-33</a>
+                </div>
+
+                <div class="phone">
+                    <img src="./img/Phone.png" width="25px" height="25px" alt="">
+                    <a href="tel:+7(495) 33-33-33">+7(495) 33-33-33</a>
+                </div>
+                <button class="btn">Получить скидку</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <ul>
+                    <li>
+                        <a class="footer-link smooth-scroll-link" href="#intro">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link smooth-scroll-link" href="#about-us">
+                            О нас
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link smooth-scroll-link" href="#servis">
+                            Услуги
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link smooth-scroll-link" href="#order">
+                            Заказать
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link smooth-scroll-link" href="#review">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link smooth-scroll-link" href="#contacts">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-content">
+                    <h3 class="h3">Закажите звонок</h3>
+                    <p class="p1">При заказе услуги в течении 30-и минут вы получите скидку</p>
+                    <button class="btn"><a href="tel:+7(475)333333">Заказать званок</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

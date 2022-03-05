@@ -1,0 +1,14 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --header-bgcol: #5198af;
+    --li-hover: #3e7486;
+    --btn-color: #5198af;
+    --item-bor: #5198af;
+    --item-bgcol: #bbd8e2;
+    --item-col: #5198af;
+    --dot-color: #5198af;
+    --order-bgcol:#bbd8e2;
+    --order-img-bgcol: #5198af;
+    --footer-bgcol: #5198af;
+}
